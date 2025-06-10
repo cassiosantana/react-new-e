@@ -1,12 +1,10 @@
 import ReactDOM from 'react-dom/client';
-import Multi, { BoaTarde, BoaNoite } from './components/Multiplos.jsx';
+import Saudacao from './components/Saudacao.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-    <Multi.BomDia nome="Maria Rita"/>
-    <BoaTarde nome="Maria Rita"/>
-    <BoaNoite nome={'Maria "Rita"'}/>
+    <Saudacao tipo="Bom dia" nome="Cassio"/>
   </div>
 );
